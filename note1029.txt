@@ -1,0 +1,17 @@
+name-version.tar.{gz|bz2|xz}
+os plat
+	el6 rehat enterprise linux 6
+	el5
+	centos5
+	centos6
+	suse11
+arch:
+	x84_64
+	i386,i586,i686
+	ppc
+	noarch
+for example :one sourse code,has ten usage
+	devide the packge.
+	
+DNS:bind,bind-devel,bind-libs,bind-utils,
+

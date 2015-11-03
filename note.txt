@@ -1,0 +1,20 @@
+virtual file system
+VFS
+add the mid
+magedu.com
+www.magedu.com
+ntfs
+ntfs
+fat
+ext
+ext3
+ext4
+ext2
+number
+id num
+ext
+ntfs
+id
+id
+fdisk -l /dev/[sh]d[a-z]
+

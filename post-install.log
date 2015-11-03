@@ -1,0 +1,23 @@
++ echo
+
++ echo
+
++ echo
+
++ cat
++ cat
++ touch /etc/resolv.conf
++ /sbin/restorecon /etc/resolv.conf
++ chmod 755 /etc/rc.d/init.d/livesys
++ /sbin/restorecon /etc/rc.d/init.d/livesys
++ /sbin/chkconfig --add livesys
++ chmod 755 /etc/rc.d/init.d/livesys-late
++ /sbin/restorecon /etc/rc.d/init.d/livesys-late
++ /sbin/chkconfig --add livesys-late
++ /usr/sbin/makewhatis -w
++ rm -f '/var/lib/rpm/__db*'
++ rm -f '/boot/initrd*'
++ rm -f /boot/initramfs-2.6.32-431.el6.x86_64.img
++ rm -f '/core*'
++ rm -f /.readahead_collect
++ touch /var/lib/readahead/early.sorted
